@@ -4,14 +4,14 @@ export default function Footer() {
   return (
     <div className="footer-container">
       <div className="links-container">
-        <nav> Drawdown NYC
+        <nav>Drawdown NYC
           <a href="#">About</a>
           <a href="#">Events</a>
           <a href="#">Newsletter</a>
           <a href="#">Contact</a>
         </nav>
 
-        <nav> Project Drawdown
+        <nav>Project Drawdown
           <a href="#">The Book</a>
           <a href="#">Solutions</a>
           <a href="#">Donate</a>
