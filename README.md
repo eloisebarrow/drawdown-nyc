@@ -7,7 +7,7 @@ This project is a dedicated website for the ongoing Drawdown NYC workshop, where
 - App: Contains all logic & initial API calls from Google Sheets
 - Header: Contains logo and navigation
 - Main: Contains homepage body i.e. the following components - Intro-Photo, About & Aside
-Intro-Photo: Contains a relevant photo
+- Intro-Photo: Contains a relevant photo
 - About: Contains copy on 'Who We Are' and 'What We Do' + a photo with an inspiring call to action
 - Aside: Contains a short list of upcoming events, newsletter sign-up, and a section to learn more about Project Drawdown
 - Footer: Contains site map & links to Project Drawdown + copyright info
