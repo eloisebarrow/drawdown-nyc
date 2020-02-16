@@ -59,21 +59,32 @@
 }
 
 /***************** ABOUT *******************/
-.about-container {
+.about-text {
   display: flex;
 }
 
-.about-container div {
+.about-text div {
   width: 50%;
   height: 400px;
   padding: 3% 4% 5% 4%;
 }
 
-.about-container h3 {
+.about-text h3 {
   font-size: 2rem;
 }
 
-.about-container p {
+.about-text p {
   line-height: 2.5rem;
   font-size: 1.35rem;
+}
+
+.about-photo-container {
+  width: 100vw;
+  height: 400px;
+}
+
+.about-photo {
+  /* Photo by American Public Power Association on Unsplash */
+  width: 100%;
+  height: 100%;
 }
