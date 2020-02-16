@@ -1,7 +1,7 @@
 
 /*********************** GENERAL ************************/
 * {
-  font-family: Helvetica;
+  font-family: 'Exo', sans-serif;
   color: rgb(114,114,114);
 }
 
@@ -41,6 +41,7 @@
   text-decoration: none;
   letter-spacing: 0.05rem;
   font-size: 1.2rem;
+  font-weight: 600;
 }
 
 /*********** INTRO PHOTO ************/
