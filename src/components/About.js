@@ -16,6 +16,7 @@ export default function About() {
       </div>
 
       <div className="about-photo-container">
+        {/* Photo by Mariana Proença on Unsplash */}
         <img className="about-photo" alt="solar panels" src="https://res.cloudinary.com/eloise/image/upload/v1581881786/drawdown-nyc/solar-panels.jpg" />
       </div>
     </div>

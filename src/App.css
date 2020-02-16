@@ -12,8 +12,9 @@
 /************************ HEADER *************************/
 .header-container {
   display: flex;
+  position: fixed;
   height: 100px;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.9);
 }
 
 .logo-container {
@@ -45,15 +46,13 @@
 /*********** INTRO PHOTO ************/
 
 .intro-photo-container {
-  height: 500px;
+  height: 650px;
   width: 100vw;
 }
 
 .intro-photo {
   background-image: url("https://res.cloudinary.com/eloise/image/upload/v1581877452/drawdown-nyc/header-img-02.jpg"); /* Photo by Sebastian Engler on Unsplash */
   background-size: cover;
-  /* position: absolute;
-  top: 0; */
   width: 100%;
   height: 100%;
 }
