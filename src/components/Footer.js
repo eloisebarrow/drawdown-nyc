@@ -12,11 +12,11 @@ export default function Footer() {
         </nav>
 
         <nav>Project Drawdown
-          <a href="#">The Book</a>
-          <a href="#">Solutions</a>
-          <a href="#">Donate</a>
-          <a href="#">News and Media</a>
-          <a href="#">FAQs</a>
+          <a href="https://www.drawdown.org/the-book" target="_blank" rel="noopener noreferrer">The Book</a>
+          <a href="https://www.drawdown.org/solutions" target="_blank" rel="noopener noreferrer">Solutions</a>
+          <a href="https://www.drawdown.org/donate" target="_blank" rel="noopener noreferrer">Donate</a>
+          <a href="https://www.drawdown.org/news-and-media" target="_blank" rel="noopener noreferrer">News and Media</a>
+          <a href="https://www.drawdown.org/frequently-asked-questions" target="_blank" rel="noopener noreferrer">FAQs</a>
         </nav>
       </div>
 
