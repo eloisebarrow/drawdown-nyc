@@ -2,6 +2,7 @@
 Drawdown Blue: rgb(41,171,226)
 Drawdown Dark Blue: rgb(37,64,142)
 Drawdown Orange: rgb(248,159,30)
+Grey: rgb(114,114,114)
 *******/
 
 /*********************** GENERAL ************************/
@@ -43,6 +44,7 @@ Drawdown Orange: rgb(248,159,30)
 }
 
 .header-nav a {
+  color: rgb(114,114,114);
   text-decoration: none;
   letter-spacing: 0.05rem;
   font-size: 1.2rem;
@@ -70,6 +72,10 @@ Drawdown Orange: rgb(248,159,30)
 
 .about-what, .events-container {
   background-color: rgb(41,171,226);
+}
+
+.about-who > h3, .about-who > p, .newsletter-form-container > h3, .newsletter-form-container p {
+  color: rgb(114,114,114);
 }
 
 .about-what h3, p, .events-container h3 {
@@ -100,5 +106,29 @@ Drawdown Orange: rgb(248,159,30)
   /* Photo by American Public Power Association on Unsplash */
   width: 100%;
   height: 100%;
+}
+
+.aside-drawdown-container {
+  /* Photo by Kai Gradert on Unsplash */
+  background-image: url("https://res.cloudinary.com/eloise/image/upload/v1581893490/drawdown-nyc/windmills_gsnuwh.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 100vw;
+}
+
+.project-drawdown {
+  text-decoration: none;
+}
+
+.project-drawdown:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.aside-drawdown-container h4 {
+  font-size: 3rem;
+  color: rgb(255,255,255,0.7);
+  margin-top: 0;
+  padding-top: 5%;
 }
 
