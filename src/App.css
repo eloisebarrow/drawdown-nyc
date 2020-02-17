@@ -21,6 +21,7 @@ Grey: rgb(114,114,114)
   position: fixed;
   height: 100px;
   background-color: rgba(255,255,255,0.9);
+  z-index: 1;
 }
 
 .logo-container {
@@ -72,10 +73,19 @@ Grey: rgb(114,114,114)
 }
 
 .intro-photo {
-  background-image: url("https://res.cloudinary.com/eloise/image/upload/v1581877452/drawdown-nyc/header-img-02.jpg"); /* Photo by Sebastian Engler on Unsplash */
+  background-image: url("https://res.cloudinary.com/eloise/image/upload/v1581953751/drawdown-nyc/alt-intro-photo02.jpg"); /* Photo by Christopher Rusev on Unsplash */
   background-size: cover;
   width: 100%;
   height: 100%;
+}
+
+.intro-photo h3 {
+  position: relative;
+  font-size: 3rem;
+  color: rgb(230,230,230);
+  margin-top: 0;
+  padding-top: 36%;
+  padding-right: 11%;
 }
 
 /***************** ABOUT / ASIDE *******************/
