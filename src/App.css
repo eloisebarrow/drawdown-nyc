@@ -72,11 +72,19 @@ Grey: rgb(114,114,114)
   width: 100vw;
 }
 
-.intro-photo {
-  background-image: url("https://res.cloudinary.com/eloise/image/upload/v1581953751/drawdown-nyc/alt-intro-photo02.jpg"); /* Photo by Christopher Rusev on Unsplash */
-  background-size: cover;
+.intro-photo-container > div {
   width: 100%;
-  height: 100%;
+  padding-bottom: 75%;
+  position: relative;
+  background: #fff;
+}
+
+.intro-photo-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
 }
 
 .intro-photo h3 {
